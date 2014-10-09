@@ -1,7 +1,8 @@
 body {
-	background-color: #CC6600
+	background-color: #CC6600;
 }
 p {
 	font-family: serif;
 	font-size: 40px;
+	margin: auto;
 }
