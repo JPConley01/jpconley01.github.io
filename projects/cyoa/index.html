@@ -1,11 +1,48 @@
 <!doctype html>
 <html>
-	<head>
-		<link rel="stylesheet" href="/stylesheet.css"/>
-	</head>
-	
-	<body>
-		<script src="cyoa.js"></script>
-	</body>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <a class="btn btn-primary" onclick="play()">Play</a>
+    <div id="hide1">
+        <br />
+        <label for="agePrompt">What's your age?</label>
+        <input type="text" id="agePrompt" />
+        <a class="btn btn-default" onclick="getAge()">Confirm</a>
+    </div>
+    <div id="hide2">
+        <br />
+        <div id="line1"></div>
+        <br />
+        <label for="answer1">Do you want to race Bieber on stage?</label>
+        <br />
+        <a class="btn btn-default" onclick="doRace(true)">Yes</a>
+        <a class="btn btn-default" onclick="doRace(false)">No</a>
+    </div>
+    <div id="hide3">
+    <br />
+    <div id="line2"></div>
+        <br />
+        <label>Please rate my game! Scale of 1 to 10 please!</label>
+        <br />
+        <input type="radio" name="rating" value="1" />1
+        <input type="radio" name="rating" value="3" />3
+        <input type="radio" name="rating" value="5" />5
+        <input type="radio" name="rating" value="7" />7
+        <input type="radio" name="rating" value="8" />8
+        <input type="radio" name="rating" value="10" />10
+        <a class="btn btn-default" onclick="rate()">Rate!</a>
+        <br />
+    </div>
+    <div id="hide4">
+        <div id="feedback"></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="cyoa.js"></script>
+</body>
+
 </html>
-	
