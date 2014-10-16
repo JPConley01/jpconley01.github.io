@@ -1,5 +1,5 @@
 body {
-	background-color: #B85C00;
+	background-color: #FFB162;
 }
 p {
 	font-family: serif;
@@ -8,7 +8,9 @@ p {
 	text-align: center;
 }
 
-div {
+a {
+	text-decoration: none;
+	font-family: Verdana, sans-serif;
 	border-radius: 5px;
 	border: 2px solid #000000;
 	background-color: #742E00;
@@ -17,9 +19,9 @@ div {
 	margin: auto;
 	text-align: center;
 }
-
-a {
-	text-decoration: none;
-	font-family: Verdana, sans-serif;
-	
+a: hover {
+	text-decoration: underline;
+}
+a: visited {
+	text-decoration: none
 }
