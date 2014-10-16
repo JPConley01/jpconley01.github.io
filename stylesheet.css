@@ -1,8 +1,18 @@
 body {
-	background-color: #CC6600;
+	background-color: #B85C00;
 }
 p {
 	font-family: serif;
 	font-size: 40px;
 	margin: auto;
+	text-align: center;
+}
+a {
+	font-family: Impact;
+	font-size: 35px;
+	padding: 40px;
+	margin: auto;
+	text-decoration: none;
+	text-align: center;
+	
 }
