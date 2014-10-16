@@ -8,7 +8,7 @@ p {
 	text-align: center;
 }
 
-a, a:hover, a:visited {
+a, a:visited {
 	text-decoration: none;
 	font-family: Verdana, sans-serif;
 	border-radius: 5px;
@@ -19,4 +19,6 @@ a, a:hover, a:visited {
 	margin: auto;
 	text-align: center;
 	text-color: #FFFFFF;
+}
+a:hover { text-decoration: underline 
 }
