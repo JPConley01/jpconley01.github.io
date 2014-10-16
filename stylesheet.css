@@ -18,7 +18,7 @@ a, a:visited {
 	width: 120px;
 	margin: auto;
 	text-align: center;
-	text-color: #FFFFFF;
+	color: #FFFFFF;
 }
 a:hover { text-decoration: underline 
 }
