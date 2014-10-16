@@ -7,12 +7,19 @@ p {
 	margin: auto;
 	text-align: center;
 }
-a,a:visited {
-	font-family: Impact;
-	font-size: 35px;
-	margin: auto;
-	text-decoration: none;
-	text-align: center;
 
+div {
+	border-radius: 5px;
+	border: 2px solid #000000;
+	background-color: #742E00;
+	height: 50px;
+	width: 120px;
+	margin: auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	font-family: Verdana, sans-serif;
 	
 }
