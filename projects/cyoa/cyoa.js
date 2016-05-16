@@ -37,7 +37,7 @@ var rate = function() {
     if(rating > 8) {
         $("#feedback").append("<p>Thank you! We should hang out lolol</p>");
     } else {
-        $("#feedback").append("<p>Fuck you. Die in a fire.</p>");
+        $("#feedback").append("<p>You aren't very nice you know.</p>");
     }
     $("#hide4").show();
 };
